@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Sethtek Sandbox',
   tagline: 'A highly modifyable multiplayer sandbox game.',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/sbxfavicon.ico',
 
   // Set the production url of your site here
   url: 'https://sandbox.sethtek.net',
