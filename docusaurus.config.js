@@ -84,32 +84,47 @@ const config = {
           },
         ],
       },
+      /*footer: {
+        logo: {
+          alt: 'Meta Open Source Logo',
+          src: 'img/meta_oss_logo.png',
+          href: 'https://opensource.fb.com',
+          width: 160,
+          height: 51,
+        },
+        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      },
+      */
       footer: {
-        style: 'dark',
+        style: "light",
         links: [
           {
-            title: 'Docs',
+            title: 'Links',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Home',
+                to: '/',
+              },
+              {
+                label: 'Documentation',
                 to: '/docs/intro',
               },
+              {
+                label: 'Blog',
+                to: '/blog',
+              }
             ],
           },
           {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/qYF9QeYShZ',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Steam',
+                href: 'https://store.steampowered.com/app/1065990/Sethtek_Driving_Simulator/',
               },
             ],
           },
@@ -117,12 +132,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Sethtek.net',
+                href: 'https://sethtek.net',
               },
             ],
           },
