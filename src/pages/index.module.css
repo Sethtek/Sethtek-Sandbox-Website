@@ -28,7 +28,15 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: white;  
+}
+
+.hero_title {
+  font-size: 48px;
+}
+
+.hero_subtitle {
+  font-size: 24px;
 }
 
 .pgyo {
