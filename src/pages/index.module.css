@@ -8,7 +8,7 @@
   overflow: hidden;
 
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(25, 25, 25, 0.5), rgba(25, 25, 25, 0.5)), url("sbxwp.png");
+  background-image: linear-gradient(rgba(25, 25, 25, 0.5), rgba(25, 25, 25, 0.5)), url("/static/img/sbxwp.png");
 
   /* Position and center the image to scale nicely on all screens */
   background-attachment: fixed;
@@ -46,6 +46,20 @@
   margin-top: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.first_content_block {
+  height: 500px;
+}
+
+/*.fcb_img {
+  src: url(/static/img/sbx_objects.png);
+  size: auto;
+}*/
+
+.svgimg{
+  src: url(/static/img/sbx_objects.svg);
+  size: auto;
 }
 
 @media screen and (max-width: 996px) {

@@ -74,29 +74,19 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          /*{ to: '/blog', label: 'Blog', position: 'left' }
+          Link for GitHub in the upper right of the Navbar!
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
-          },
+          },*/
         ],
       },
-      /*footer: {
-        logo: {
-          alt: 'Meta Open Source Logo',
-          src: 'img/meta_oss_logo.png',
-          href: 'https://opensource.fb.com',
-          width: 160,
-          height: 51,
-        },
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
-      */
       footer: {
-        style: "light",
+        style: "light", // Actually the dark theme somehow? Don't even change this EVER lol
         links: [
           {
             title: 'Links',

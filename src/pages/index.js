@@ -12,6 +12,7 @@ function HomepageHeader() {
       <div className={clsx('hero_text_container', styles.hero_text_container)}>
         <h1 className={clsx('hero_title', styles.hero_title)}>{siteConfig.title}</h1>
         <p className={clsx('hero_subtitle', styles.hero_subtitle)}>{siteConfig.tagline}</p>
+        <p className={clsx('hero_subtitle', styles.hero_subtitle)}><i><b>Coming Soon!</b></i></p>
       </div>
     </header >
   );
@@ -25,6 +26,13 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
 
       <HomepageHeader />
+
+      <div className={styles.first_content_block}>
+        <image className={styles.fcb_img} />
+        <img src="/static/img/sbx_objects.png" alt="A collection of Sethtek Sandbox Objects!" />
+        <svg className={styles.svgimg} />
+        Sethtek sandbox has all sorts of stuff for you to do!
+      </div>
 
       <h1 className={clsx('haichUno', styles.haichUno)}>Such amazing content is on the way!</h1>
       <p className={clsx('paragraph1', styles.pgyo)}>
